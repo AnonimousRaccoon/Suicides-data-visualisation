@@ -1,6 +1,5 @@
-﻿altair
+altair
 pandas
 plotly
 streamlit
 plotly_express
-io
