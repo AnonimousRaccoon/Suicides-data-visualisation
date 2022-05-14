@@ -5,7 +5,7 @@ import base64
 import altair as alt
 from io import StringIO, BytesIO
 
-with st.echo(code_location='below')
+with st.echo(code_location='below'):
     def read_file(data_url):
         return pd.read_csv(data_url)
     ####DOWNLOAD EXCEL AND PLOT FUNCTIONS
